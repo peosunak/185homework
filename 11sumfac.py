@@ -18,6 +18,7 @@ print(i, x, y)
 # x and y can be thought of "storage" where they take the previous value and use that as the new variable
 # we want to print n, sum of 1...n, and n! on the same line print  => print(x,y,z)
 
+
 # worked on this with Krikor, Maijken and Jeremy
 
 """
