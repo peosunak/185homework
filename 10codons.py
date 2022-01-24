@@ -6,9 +6,10 @@
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
 k = 3
 
-for i in range(0,len(dna),3):
-	print(dna[i:i+k])
-print('End of Loop')
+for i in range(0,len(dna),k):	# start at position 0, loop consists of the length of 'dna', loop in steps of 'k'
+	print(dna[i:i+k])			# print 'dna' starting at begining of range, which is i=0, and stopping before k
+
+# indent the print fxn to return everything that happens before the final output
 
 """
 python3 10codons.py
