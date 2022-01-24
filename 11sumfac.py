@@ -5,7 +5,6 @@
 # No, you may not use math.factorial()
 # Use the same loop for both calculations
 
-
 n = 5
 x = 0
 y = 1
