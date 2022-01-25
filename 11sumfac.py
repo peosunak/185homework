@@ -12,7 +12,7 @@ fac = 1
 for i in range(1, (n+1)):			# starting at position 1, going though 5
 	sum += i						# every time the loop prints an outcome, 'X' is redefined
 	fac *= i						
-print(i, x, y)
+print(i, sum, fac)
 
 # no indent on the print fxn only returns the final outcome
 # x and y can be thought of "storage" where they take the previous value and use that as the new variable
