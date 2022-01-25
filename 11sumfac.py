@@ -6,12 +6,12 @@
 # Use the same loop for both calculations
 
 n = 5
-x = 0
-y = 1
+sum = 0
+fac = 1
 
 for i in range(1, (n+1)):			# starting at position 1, going though 5
-	x += i						# every time the loop prints an outcome, 'X' is redefined
-	y *= i						
+	sum += i						# every time the loop prints an outcome, 'X' is redefined
+	fac *= i						
 print(i, x, y)
 
 # no indent on the print fxn only returns the final outcome
