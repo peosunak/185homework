@@ -77,5 +77,5 @@ for gc, gs in geneseq.items():
 		print(gc)
 
 
-
+# worked with Krikor
 
