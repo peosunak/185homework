@@ -88,7 +88,3 @@ def manhat(totdict, inddict):
 
 
 # def other functions...
-
-
-
-
