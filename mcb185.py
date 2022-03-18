@@ -65,6 +65,28 @@ def ntprobs(window):
 	if C > 0: prob.append(C)
 	if G > 0: prob.append(G)
 	return prob
+
+
+def codonfreq(codons, sequence):
+	total = 0
+	for i in range(0, len(sequence)-3+1, 3):
+		codon = sequence[i:i+3]
+		if codon not in codons: codons[codon] = 0
+		codons[codon] += 1
+		total += 1
+	return codons
+
+
+def manhat(totdict, inddict):
+	dis = 0 
+	for k in totdict.keys():
+		if k not in inddict: 
+			dis += totdict[k]
+		else:
+			dis += abs(totdict[k]-inddict[k])
+	return dis
+
+
 # def other functions...
 
 
